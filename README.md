@@ -128,4 +128,6 @@ div {
 @Injectable({providedIn: 'root'})
 ```
 `component.ts`:
+```typescript
 constructor(private tasksService: TasksService) {}
+```
